@@ -1,0 +1,502 @@
+main.article section.left {
+    padding-left: 10px;
+}
+
+main.article article.large {
+    border: 0;
+}
+
+main.article article.large h2 {
+    color: #2C2C2C;
+    position: relative;
+}
+
+main.article article.large h2 .rate {
+    width: 90px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+main.article article.large h2 img {
+    width: 90px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+main.article article.large p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+main.article article.large .img_cont {
+    width: 100%;
+    overflow: hidden;
+}
+
+main.article article.large .img_cont img {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #DBD5C0;
+    border-radius: 5px;
+}
+
+main.article article.large h2 img:hover,
+main.article article.large .img_cont img:hover {
+    cursor: default;
+    opacity: 1;
+}
+
+main.article article.large .sub .views {
+    margin-left: 10px;
+}
+
+main.article article.large .info a {
+    color: #2C2C2C;
+}
+
+main.article article.large .info .art_tags a:hover {
+    text-decoration: underline;
+}
+
+main.article article.large .info div {
+    text-align: center;
+    font-size: .9em;
+}
+
+main.article article.large .info .art_tags {
+    margin-bottom: 15px;
+}
+
+main.article article.large .info .next_prev {
+    overflow: hidden;
+    margin: 25px 0 10px;
+}
+
+main.article article.large .info .next_prev a {
+    width: 45%;
+    height: 80px;
+}
+
+main.article article.large .info .next_prev a .grey {
+    color: #928F86;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+main.article article.large .info .next_prev a .title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+main.article article.large .info .next_prev a:hover .title {
+    color: #B75A26;
+}
+
+main.article article.large .info .next_prev .prev_art {
+    float: left;
+    text-align: left;
+    padding-left: 45px;
+    background: url('../img/ar_prev.png') no-repeat;
+    background-position: top left;
+    background-size: auto 100%;
+}
+
+main.article article.large .info .next_prev .prev_art div {
+    text-align: left;
+}
+
+main.article article.large .info .next_prev .next_art {
+    float: right;
+    text-align: right;
+    padding-right: 45px;
+    background: url('../img/ar_next.png') no-repeat;
+    background-position: top right;
+    background-size: auto 100%;
+}
+
+main.article article.large .info .next_prev .next_art div {
+    text-align: right;
+}
+
+main.article article.large .info ul.art_social {
+    width: 350px;
+    margin: auto auto;
+}
+
+main.article article.large .info ul.art_social:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+main.article article.large .info ul.art_social li {
+    height: 26px;
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+}
+
+main.article article.large .info ul.art_social li a {
+    background: #2C2C2C !important;
+    overflow: hidden;
+    padding: 2px;
+    height: 26px;
+    width: 26px;
+    opacity: .5;
+    border-radius: 4px;
+    display: block;
+}
+
+main.article article.large .info ul.art_social li a:hover {
+    opacity: 1;
+}
+
+main.article article.large .info ul.art_social li a img:hover {
+    opacity: 1;
+}
+
+main.article article.large .info ul.art_social li a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* --- */
+
+main.article hr {
+    margin: 0 10px;
+    height: 1px;
+    background: #DBD5C0;
+    color: #DBD5C0;
+    border: none;
+}
+
+main.article .reviews,
+main.article .related {
+    overflow: hidden;
+}
+
+main.article .reviews h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+main.article .reviews .rev_wrap {
+    overflow: hidden;
+}
+
+main.article .reviews .add_reply {
+    margin-top: 20px;
+    position: relative;
+}
+
+main.article .reviews .add_reply .cancel_rep {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    color: #2C2C2C;
+}
+
+main.article .reviews .add_reply .cancel_rep:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main.article .reviews .rev_wrap .review:last-child {
+    border: 0;
+}
+
+main.article .rev_wrap .review {
+    margin: 20px 10px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 0 50px;
+}
+
+main.article .rev_wrap .review .block_wrap {
+    position: relative;
+    overflow: visible;
+}
+
+main.article .rev_wrap .review .ava {
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+    top: 12px;
+    left: -30px;
+    border: 4px solid white;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .15);
+}
+
+main.article .rev_wrap .review .head {
+    position: relative;
+    height: 60px;
+    padding-left: 35px;
+    margin-top: 2px;
+}
+
+main.article .rev_wrap .review h3 {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #2C2C2C;
+}
+
+main.article .rev_wrap .review .date {
+    color: #5F5F5F;
+    font-size: .8em;
+    margin: 0;
+}
+
+main.article .rev_wrap .review .rate {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .3;
+}
+
+main.article .rev_wrap .review .text {
+    margin: 15px 0 25px;
+    padding-left: 5px;
+    font-size: .95em;
+}
+
+main.article .rev_wrap .review .reply {
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: .75em;
+    background: #DBD5C0;
+    padding: 15px 5px 10px;
+    border-radius: 80px 0 0 0;
+    transition: all .4s ease-in-out;
+}
+
+main.article .rev_wrap .review .reply:hover {
+    color: white;
+    background: #2C2C2C;
+    cursor: pointer;
+}
+
+main.article .rev_wrap .children {
+    padding: 0;
+}
+
+main.article .rev_wrap .children li.review {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+main.article .reviews ul.rev_pagin {
+    text-align: center;
+    overflow: hidden;
+    height: 45px;
+    margin: 0 10px 20px;
+    position: relative;
+    border: 1px solid #DBD5C0;
+    padding: 9px;
+    width: auto;
+    border-radius: 5px;
+    background: #FBF7E9;
+}
+
+main.article .reviews ul.rev_pagin li {
+    display: inline-block;
+    color: #2C2C2C;
+    padding: 5px;
+    height: 100%;
+    color: #2C2C2C;
+}
+
+main.article .reviews ul.rev_pagin li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main.article .reviews ul.rev_pagin li.active {
+    background: #E0DAC4;
+}
+
+main.article .reviews ul.rev_pagin li:first-child:hover,
+main.article .reviews ul.rev_pagin li.active:hover {
+    cursor: default;
+    text-decoration: none;
+}
+
+main.article .reviews ul.rev_pagin li.arrow {
+    font-size: 1.3em;
+    padding: 0 5px;
+}
+
+main.article .reviews ul.rev_pagin li:first-child {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    font-size: .9em;
+    color: #6D6859;
+    cursor: default;
+}
+
+main.article .reviews ul.rev_pagin li:last-child {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+main.article .reviews .rev_wrap form {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+main.article .reviews .rev_wrap form > div input {
+    height: 40px;
+    float: left;
+}
+
+main.article .reviews .rev_wrap form > div input {
+    padding: 0 8px;
+    border: 1px solid #DBD5C0;
+    width: 30%;
+    margin-right: 2%;
+    height: 30px;
+    float: left;
+}
+
+main.article .reviews .rev_wrap form .red_link {
+    text-transform: uppercase;
+    display: block;
+}
+
+main.article .reviews .rev_wrap form .rating {
+    cursor: pointer;
+    position: relative;
+    width: 90px;
+    height: 17px;
+    float: left;
+}
+
+.rev_wrap form .rating .img {
+    margin: 0;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('../img/star_empty.png') no-repeat;
+    background-size: 17px 17px;
+    background-position: top left;
+}
+
+.rev_wrap form .rating > .img {
+    width: 89px;
+}
+
+.rev_wrap form .rating > .img > .img {
+    width: 71px;
+}
+
+.rev_wrap form .rating > .img > .img > .img {
+    width: 53px;
+}
+
+.rev_wrap form .rating > .img > .img > .img > .img {
+    width: 35px;
+}
+
+.rev_wrap form .rating > .img > .img > .img > .img > .img {
+    width: 17px;
+}
+
+main.article .reviews .rev_wrap form .rating .img:hover {
+    background: url('../img/star_filled.png') no-repeat;
+    background-size: 17px 17px;
+    background-position: top left;
+}
+
+main.article .reviews .rev_wrap form textarea {
+    resize: vertical;
+    min-height: 100px;
+    max-height: 300px;
+    border-radius: 0;
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DBD5C0;
+}
+
+main.article .related {
+    padding: 10px;
+}
+
+main.article .related h2 {
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+main.article .related .item_wrap {
+    width: 100%;
+    margin: 5px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+main.article .related .item {
+    width: 32%;
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 10px 0;
+    margin-right: 2%;
+}
+
+main.article .related .item:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+main.article .related .item img {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    transition: all .4s ease-in-out;
+    opacity: 1;
+}
+
+main.article .related .item > div {
+    text-align: center;
+    margin-top: 5px;
+}
+
+main.article .related .item > div a {
+    color: #2C2C2C;
+    font-weight: bold;
+}
+
+main.article .related .item > div a:hover {
+    color: #B75A26;
+}
+
+main.article .related .item > a {
+    transition: all .4s ease-in-out;
+    opacity: 1;
+}
+
+main.article .related .item > a:hover img {
+    opacity: .75;
+}
+
+main.article .related .item > div.date {
+    font-size: .9em;
+    color: #666666;
+}

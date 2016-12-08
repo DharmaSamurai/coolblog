@@ -1,0 +1,463 @@
+main.product .block_wrap.prods {
+    position: relative;
+    min-height: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main.product .upper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+main.product hr {
+    margin: 0 20px;
+    height: 1px;
+    background: #DBD5C0;
+    color: #DBD5C0;
+    border: none;
+}
+
+main.product .lft_abs {
+    min-height: 390px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+main.product .lft_abs img {
+    border: 1px solid #DBD5C0;
+    transition: all .4s ease-in-out;
+    opacity: 1;
+}
+
+main.product .lft_abs img.big {
+    width: 100%;
+}
+
+main.product .lft_abs .ltl_imgs > div {
+    width: 33.2%;
+    margin: 0 !important;
+    font-size: 0;
+    display: block;
+    float: left;
+    padding: 4px;
+    margin-top: 4px;
+}
+
+main.product .lft_abs .ltl_imgs > div:first-child {
+    padding-left: 0;
+}
+
+main.product .lft_abs .ltl_imgs > div:nth-child(2) {
+    padding: 4px 2px;
+}
+
+main.product .lft_abs .ltl_imgs > div:last-child {
+    padding-right: 0;
+    float: right;
+}
+
+main.product .lft_abs img.ltl {
+    width: 100%;
+    margin: 0;
+}
+
+main.product .lft_abs img:hover {
+    cursor: pointer;
+    opacity: .75;
+}
+
+main.product .rgt_rel {
+    padding: 20px;
+    padding-left: 300px;
+    text-align: left;
+    vertical-align: top;
+    min-height: 390px;
+}
+
+main.product article.prd {
+    margin: 0;
+    border: 0;
+}
+
+main.product article.prd h2 .rate {
+    width: 90px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 20px;
+}
+
+main.product article.prd h2 img {
+    width: 90px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+main.product article.prd > div {
+    margin: 10px 0;
+}
+
+main.product article.prd .price .old {
+    text-decoration: line-through;
+    font-size: .9em;
+    margin-left: 10px;
+}
+
+main.product article.prd .price .now {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #8E1111;
+}
+
+main.product article.prd .info a {
+    color: #2C2C2C;
+}
+
+main.product article.prd .info a:hover {
+    text-decoration: underline;
+}
+
+main.product article.prd .count .cnt {
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+main.product article.prd .count .cnt input {
+    border: 1px solid #DBD5C0;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    position: relative;
+}
+
+main.product article.prd .count .cnt span {
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 14px solid transparent;
+    top: 1px;
+    opacity: .6;
+    ox-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+main.product article.prd .count .cnt span:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+main.product article.prd .count .cnt span.less {
+    border-right: 14px solid #7D7B70;
+    left: -8px;
+}
+
+main.product article.prd .count .cnt span.more {
+    border-left: 14px solid #7D7B70;
+    right: -8px;
+}
+
+main.product article.prd .count button {
+    margin: 0;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+main.product .reviews,
+main.product .related {
+    overflow: hidden;
+}
+
+main.product .reviews h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+main.product .reviews .more_text {
+    margin-bottom: 10px;
+}
+
+main.product .reviews section.review {
+    margin: 20px;
+    position: relative;
+}
+
+main.product .reviews section.review h3 {
+    font-weight: bold;
+    color: #2C2C2C;
+    font-size: .9em;
+}
+
+main.product .reviews section.review .date {
+    color: #5F5F5F;
+    font-size: .8em;
+    margin-top: 5px;
+}
+
+main.product .reviews section.review .rate {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .3;
+}
+
+main.product .reviews section.review .text {
+    margin: 5px 0;
+    font-size: .95em;
+}
+
+main.product .reviews ul.rev_pagin {
+    text-align: center;
+    overflow: hidden;
+    height: 25px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+main.product .reviews ul.rev_pagin li {
+    display: inline-block;
+    color: #2C2C2C;
+    padding: 5px;
+    height: 100%;
+    color: #2C2C2C;
+    cursor: pointer;
+}
+
+main.product .reviews ul.rev_pagin li.active {
+    background: #E0DAC4;
+    cursor: default;
+}
+
+main.product .reviews ul.rev_pagin li.arrow {
+    font-size: 1.3em;
+    padding: 0 5px;
+}
+
+main.product .reviews ul.rev_pagin li:first-child {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: .9em;
+    color: #6D6859;
+    cursor: default;
+}
+
+main.product .reviews ul.rev_pagin li:last-child {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+main.product .reviews .rev_wrap form {
+    padding: 20px;
+}
+
+main.product .reviews .rev_wrap form > div input {
+    padding: 0 8px;
+    border: 1px solid #DBD5C0;
+    width: 30%;
+    margin-right: 2%;
+    height: 30px;
+    float: left;
+}
+
+main.product .reviews .rev_wrap form .red_link {
+    text-transform: uppercase;
+    display: block;
+}
+
+main.product .reviews .rev_wrap form .rating {
+    cursor: pointer;
+    position: relative;
+    width: 90px;
+    height: 17px;
+    float: left;
+}
+
+.rev_wrap form .rating .img {
+    margin: 0;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('../img/star_empty.png') no-repeat;
+    background-size: 17px 17px;
+    background-position: top left;
+}
+
+.rev_wrap form .rating > .img {
+    width: 89px;
+}
+
+.rev_wrap form .rating > .img > .img {
+    width: 71px;
+}
+
+.rev_wrap form .rating > .img > .img > .img {
+    width: 53px;
+}
+
+.rev_wrap form .rating > .img > .img > .img > .img {
+    width: 35px;
+}
+
+.rev_wrap form .rating > .img > .img > .img > .img > .img {
+    width: 17px;
+}
+
+main.product .reviews .rev_wrap form .rating .img:hover {
+    background: url('../img/star_filled.png') no-repeat;
+    background-size: 17px 17px;
+    background-position: top left;
+}
+
+main.product .reviews .rev_wrap form textarea {
+    resize: vertical;
+    min-height: 100px;
+    max-height: 300px;
+    border-radius: 0;
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DBD5C0;
+}
+
+main.product .related {
+    padding: 20px;
+}
+
+main.product .related h2 {
+    text-align: center;
+}
+
+main.product .related .prods {
+    margin: 0;
+    margin-top: 20px;
+}
+
+main.product .related .prods article {
+    width: 32.6%;
+    margin: 0;
+    padding: 0;
+}
+
+main.product .related .prods article:nth-child(2) {
+    padding: 0 .5%;
+}
+
+main.product .related .prods article:first-child {
+    padding-right: 1%;
+}
+
+main.product .related .prods article:last-child {
+    padding-left: 1%;
+}
+
+/* MODAL WINDOW - IMAGES */
+
+.modal_img {
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+    display: none;
+    padding: 0;
+    opacity: 0;
+    z-index: 50;
+    background: #F7F9F8;
+}
+
+.modal_img_overlay {
+    z-index: 3;
+    position: fixed;
+    background-color: black;
+    opacity: 0.85;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    display: none;
+}
+
+
+/* SLIDER IN MODAL WINDOW IMAGES */
+
+.modal_img .slider {
+    width: 600px;
+    height: 600px;
+    display: block;
+    position: relative;
+    margin: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.modal_img .slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+}
+
+.modal_img .nav3 {
+    width: 32px;
+    height: 55px;
+    position: absolute;
+    z-index: 50;
+    top: 50%;
+    margin-top: -27px;
+    opacity: .4;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.modal_img .nav3:hover {
+    opacity: 1;
+}
+
+.modal_img .nav3.prev {
+    background: url(../img/nav3_prev.png) no-repeat;
+    background-size: 100% 100%;
+    left: -100px;
+
+}
+
+.modal_img .nav3.next {
+    background: url(../img/nav3_next.png) no-repeat;
+    background-size: 100% 100%;
+    right: -100px;
+}
+
+.modal_img .prev:hover,
+.modal_img .next:hover {
+    cursor: pointer;
+}
+
+.modal_img #mainImg {
+    z-index: 2;
+}
+
+.modal_img #mainImg2 {
+    z-index: 1;
+}
+

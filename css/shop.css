@@ -1,0 +1,238 @@
+.block_wrap ul.art_list.prods {
+    margin: 0 10px;
+}
+
+.block_wrap ul.art_list.prods li a {
+    color: #2C2C2C;
+}
+
+.block_wrap ul.art_list.prods li a:hover {
+    color: #2C2C2C;
+    text-decoration: underline;
+}
+
+.block_wrap ul.art_list.prods li .rate img {
+    -webkit-filter: brightness(100%);
+    -moz-filter: brightness(100%);
+    -o-filter: brightness(100%);
+    -ms-filter: brightness(100%);
+    filter: brightness(100%);
+}
+
+.block_wrap.filtr {
+    padding: 10px;
+}
+
+.block_wrap.filtr .amnt_wrap {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+main.shop .block_wrap.filtr label,
+main.shop .block_wrap.filtr input {
+    height: 25px !important;
+    margin: 0 !important;
+    width: 50% !important;
+}
+
+main.shop .block_wrap.filtr input#amount {
+    font-size: 1.05em;
+
+}
+
+main.shop .block_wrap.filtr label {
+    font-size: 1.05em;
+    text-align: right !important;
+}
+
+.block_wrap.filtr #amount {
+    background: #FBF7E9;
+    border: 0;
+}
+
+.block_wrap.filtr #filter {
+    border: 1px solid #DBD5C0;
+}
+
+/* PRODUCTS */
+
+.arts_wrap.prods {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 15px !important;
+    border: 1px solid #DBD5C0;
+    border-bottom: 4px solid #E4702F;
+    padding: 10px 0 !important;
+    width: 100%;
+    background: #FBF7E9;
+    border-radius: 5px 5px 0 0;
+}
+
+.arts_wrap.prods:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+article.prod {
+    width: 32%;
+    margin: 0;
+    display: inline-block;
+    border: 0;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+article.prod > a {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+article.prod a > img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    border: 1px solid #DBD5C0;
+    transition: all .4s ease-in-out;
+    opacity: 1;
+}
+
+article.prod a:hover > img {
+    opacity: .75;
+}
+
+article.prod .descr {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    font-size: 16px;
+}
+
+article.prod .descr div {
+    margin: 10px;
+}
+
+article.prod .descr div.rate {
+    position: absolute;
+    right: 2px;
+    top: 0;
+}
+
+article.prod .descr div.name {
+    margin: 65% auto 15px;
+}
+
+article.prod .descr div span {
+    color: #F8F3E1;
+    padding: 5px;
+    background: #2C2C2C;
+    border-radius: 5px;
+    font-size: .85em;
+}
+
+article.prod .descr div img {
+    width: 90px;
+    margin: 0;
+}
+
+article.prod a:hover > .descr {
+    display: block;
+}
+
+.block_wrap.crt {
+    overflow: hidden;
+}
+
+.cart {
+    overflow: auto;
+    max-height: 245px;
+    margin-right: -25px;
+}
+
+.cart ul.art_list.prods.white {
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.cart ul.art_list.prods.white li {
+    position: relative;
+}
+
+.cart ul.art_list.prods.white li .del {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    background: url('../img/close.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    cursor: pointer;
+    opacity: .6;
+}
+
+.cart ul.art_list.prods.white li .del:hover {
+    opacity: 1;
+}
+
+.cart ul.art_list.prods.white li:last-child {
+    border-bottom: 1px solid #E2DED0;
+}
+
+.cart ul.art_list.prods.white li .prc {
+    margin-top: 10px;
+    font-size: .9em;
+    color: #666666;
+}
+
+.crt_sub {
+    overflow: hidden;
+}
+
+.crt_sub > div,
+.cart > div {
+    margin: 10px;
+    text-align: center;
+}
+
+.crt_sub .total {
+    margin-top: -5px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #2C2C2C;
+    font-size: .9em;
+    border-top: 1px solid #FFFFFF;
+}
+
+.crt_sub .btns {
+    text-align: center;
+    overflow: hidden;
+    margin: 10px auto;
+    width: 90%;
+    position: relative;
+}
+
+.crt_sub .btns a.red_link {
+    width: 47%;
+    margin: 0 auto;
+    display: block;
+    float: left;
+    padding: 8px 0;
+    font-size: .9em;
+}
+
+.crt_sub .btns a:last-child {
+    float: right;
+}

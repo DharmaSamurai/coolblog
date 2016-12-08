@@ -1,0 +1,281 @@
+main.photo section.left {
+    padding: 0 !important;
+}
+
+main.photo section.left .arts {
+    position: relative;
+    margin: 0 !important;
+}
+
+main.photo section.left .img_big {
+    margin: 23px 10px 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+main.photo section.left .img_big > img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #DBD5C0;
+}
+
+.img_big div {
+    position: absolute;
+    color: #F8F3E1;
+    font-size: .9em;
+    display: none;
+    z-index: 100;
+}
+
+.img_big div a {
+    color: inherit;
+    font-size: inherit;
+}
+
+.img_big div a:hover {
+    text-decoration: underline;
+}
+
+.img_big:hover div {
+    display: block;
+}
+
+.img_big .rate {
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.img_big .rate img {
+    width: 90px;
+    z-index: 100;
+}
+
+.img_big .alb,
+.img_big .tag {
+    background: #2C2C2C;
+    padding: 5px;
+}
+
+.img_big .tag {
+    left: 10px;
+    bottom: 11px;
+}
+
+.img_big .alb {
+    left: 10px;
+    bottom: 40px;
+}
+
+/* SLIDER */
+
+main.photo section.left .prods {
+    width: auto;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+
+main.photo .jcarousel ul li img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    border: 1px solid #DBD5C0;
+}
+
+main.photo .jcarousel ul li img:hover {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    opacity: 1;
+}
+
+main.photo .jcarousel ul li img:hover {
+    opacity: .75;
+}
+
+/* RIGHT */
+main.photo ul.art_list.albms {
+    margin: 0 10px;
+}
+
+main.photo ul.art_list.albms li {
+    margin: 0 !important;
+}
+
+main.photo ul.art_list.albms li a {
+    color: #2C2C2C;
+}
+
+main.photo ul.art_list.albms li a:hover {
+    color: #2C2C2C;
+    text-decoration: underline;
+}
+
+main.photo ul.art_list.albms li .rate img {
+    -webkit-filter: brightness(100%);
+    -moz-filter: brightness(100%);
+    -o-filter: brightness(100%);
+    -ms-filter: brightness(100%);
+    filter: brightness(100%);
+}
+
+.tree_tabs .tabs_2 ul.photo {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-bottom: -5px !important;
+}
+
+.tree_tabs .tabs_2 .tab2 {
+    padding: 0 !important;
+}
+
+/* MODAL WINDOW - IMAGES */
+
+.modal_img {
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+    display: none;
+    padding: 0;
+    opacity: 0;
+    z-index: 50;
+    background: #F7F9F8;
+}
+
+.modal_img_overlay {
+    z-index: 3;
+    position: fixed;
+    background-color: black;
+    opacity: 0.85;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    display: none;
+}
+
+
+/* SLIDER IN MODAL WINDOW IMAGES */
+
+.modal_img .slider {
+    width: 600px;
+    height: 600px;
+    display: block;
+    position: relative;
+    margin: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.modal_img .slider img.sl_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: auto;
+    height: 100%;
+}
+
+.modal_img .nav3 {
+    width: 32px;
+    height: 55px;
+    position: absolute;
+    z-index: 50;
+    top: 50%;
+    margin-top: -27px;
+    opacity: .4;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.modal_img .nav3:hover {
+    opacity: 1;
+}
+
+.modal_img .nav3.prev {
+    background: url(../img/nav3_prev.png) no-repeat;
+    background-size: 100% 100%;
+    left: -100px;
+
+}
+
+.modal_img .nav3.next {
+    background: url(../img/nav3_next.png) no-repeat;
+    background-size: 100% 100%;
+    right: -100px;
+}
+
+.modal_img .prev:hover,
+.modal_img .next:hover {
+    cursor: pointer;
+}
+
+.modal_img #mainImg {
+    z-index: 2;
+}
+
+.modal_img #mainImg2 {
+    z-index: 1;
+}
+
+.slider .img_big .rating {
+    cursor: pointer;
+    position: absolute;
+    width: 90px;
+    height: 17px;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.slider .img_big .rating .img {
+    margin: 0;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('../img/star_empty.png') no-repeat;
+    background-size: 17px 17px;
+    background-position: top left;
+}
+
+.slider .img_big .rating > .img {
+    width: 89px;
+}
+
+.slider .img_big .rating > .img > .img {
+    width: 71px;
+}
+
+.slider .img_big .rating > .img > .img > .img {
+    width: 53px;
+}
+
+.slider .img_big .rating > .img > .img > .img > .img {
+    width: 35px;
+}
+
+.slider .img_big .rating > .img > .img > .img > .img > .img {
+    width: 17px;
+}
+
+.slider .img_big .rating .img:hover {
+    background: url('../img/star_filled.png') no-repeat;
+    background-size: 17px 17px;
+    background-position: top left;
+}
+

@@ -1,0 +1,140 @@
+main.search .rate img:hover {
+    opacity: 1 !important;
+}
+
+main.search .search {
+    margin: 20px 10px;
+}
+
+main.search .search input[type="search"] {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border: 1px solid #DBD5C0;
+    color: #2C2C2C;
+}
+
+main.search .search .radio {
+    text-align: center;
+}
+
+main.search .search .radio > div {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+main.search .search .radio > div label {
+    display: block;
+    float: right;
+    margin-left: 3px;
+}
+
+main.search .search input[type="submit"] {
+    margin: 10px auto;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 15px;
+    width: 170px;
+}
+
+main.search article.product .info_prod {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+    font-size: .9em;
+}
+
+main.search article.product .info_prod a {
+    color: #2C2C2C;
+}
+
+main.search article.product .info_prod a:hover {
+    text-decoration: underline;
+}
+
+main.search article.product .art_text {
+    margin-bottom: 10px;
+}
+
+main.search article.product .red_link {
+    margin-top: 20px;
+}
+
+main.search article.product .img_wrap {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.img_wrap a.prod_img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.img_wrap a.prod_img > img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    border: 1px solid #DBD5C0;
+    transition: all .4s ease-in-out;
+    opacity: 1;
+}
+
+.img_wrap a.prod_img:hover > img {
+    opacity: .75;
+}
+
+.img_wrap .descr {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    font-size: 16px;
+}
+
+.img_wrap .descr div {
+    margin: 10px;
+}
+
+.img_wrap .descr div.rate {
+    position: absolute;
+    right: 2px;
+    top: 0;
+}
+
+.img_wrap .descr div.name {
+    margin: 65% auto 20px;
+}
+
+.img_wrap .descr div span {
+    color: #F8F3E1;
+    padding: 5px;
+    background: #2C2C2C;
+}
+
+.img_wrap .descr div img {
+    width: 90px;
+    margin: 0;
+}
+
+.img_wrap a:hover > .descr {
+    display: block;
+}
+
